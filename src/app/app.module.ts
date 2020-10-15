@@ -3,7 +3,10 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
           MatToolbarModule,
-          MatListModule } from '@angular/material';
+          MatListModule,
+          MatGridListModule,
+          MatCardModule,
+          MatButtonModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -20,7 +23,10 @@ import { MenuComponent } from './menu/menu.component';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatToolbarModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
